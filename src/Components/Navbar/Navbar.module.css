@@ -1,0 +1,26 @@
+.appBarStyle {
+  box-shadow: none;
+  background-color: white;
+}
+
+.logoStyle {
+  max-width: 164px;
+  min-width: 142px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 1.2rem;
+  padding-top: 0px;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+
+.ActivityStyle{
+    display: flex;
+    align-items: center;
+    margin-top: 0.3rem;
+    color: darkgray;
+    font-family: sans-serif;
+}

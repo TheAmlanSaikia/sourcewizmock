@@ -1,0 +1,35 @@
+.headerStyles{
+    grid-area: header;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.firstContainer{
+    background-color:  white;
+    margin-left: 0px;
+    width: 50%;
+}
+.pageCategory{
+
+    margin-top: 1rem;
+}
+
+.selectedBtnStyle{
+
+    color: green;
+    border-bottom: 3px solid green;
+    border-radius: 0px;
+}
+
+.secondContainer{
+   width: 50%;
+   background-color:  white;
+} 
+
+.buttonBox{
+    display: flex;
+    justify-content: flex-end;
+    height: 98%;
+    align-items: center;
+
+}
