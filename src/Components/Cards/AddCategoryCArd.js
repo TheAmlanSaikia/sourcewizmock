@@ -2,9 +2,16 @@ import { Box } from "@mui/system";
 import { useTheme } from "@mui/material/styles";
 import { Button } from "@mui/material";
 
-const AddCategoryCards = () => {
-  const theme = useTheme();
+/**
+ * 
+ * @returns add more category card
+ */
 
+
+
+const AddCategoryCards = () => {
+
+  const theme = useTheme();
   return (
     <Box
       sx={{

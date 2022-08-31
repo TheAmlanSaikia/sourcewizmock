@@ -1,19 +1,19 @@
-@import url("../../Styles/Color.css"); 
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("../../Styles/Color.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-.landingContainer{
+.landingContainer {
   display: grid;
-  grid-template-areas: 
-  "header header header header header header"
-  "main main main main main main"
-  "main main main main main main"
-  "main main main main main main"
-  "main main main main main main"
-  "footer footer footer footer footer footer";
-   grid-template-rows: 1fr 1fr 1fr;
-   margin: 4.5rem auto 0 auto;
-   background-color: var(--white-bg); 
-   width: 90vw;
-   height: 80vh;
-   font-family: 'Roboto', sans-serif;
+  grid-template-areas:
+    "header header header header header header"
+    "main main main main main main"
+    "main main main main main main"
+    "main main main main main main"
+    "main main main main main main"
+    "footer footer footer footer footer footer";
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 4.5rem auto 0 auto;
+  background-color: var(--white-bg);
+  width: 90vw;
+  height: 80vh;
+  font-family: "Roboto", sans-serif;
 }

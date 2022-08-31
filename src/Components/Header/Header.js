@@ -102,8 +102,8 @@ const Header = () => {
               color: theme.colors.themetextColor,
               fontWeight: 600,
               fontSize: {
-                 sm: '10px',
-                 md: '14px'
+                sm: "10px",
+                md: "14px",
               },
               "&:hover": {
                 backgroundColor: theme.colors.themeColor,
@@ -124,8 +124,8 @@ const Header = () => {
               fontWeight: 600,
               fontFamily: "Roboto, sans-serif",
               fontSize: {
-                 sm: '10px',
-                 md: '14px'
+                sm: "10px",
+                md: "14px",
               },
               "&:hover": {
                 backgroundColor: theme.colors.themetextColor,

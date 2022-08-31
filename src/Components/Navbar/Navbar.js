@@ -11,9 +11,8 @@ import HeaderImage from "../../Assets/SourceWiz Logo.png";
 import UpdateIcon from "@mui/icons-material/Update";
 import HelpCenterIcon from "@mui/icons-material/HelpCenter";
 
-
 /**
- * 
+ *
  * @returns Navbar or Appbar
  */
 

@@ -1,6 +1,10 @@
 import styles from "./Body.module.css";
 import { CategoryCards, AddCategoryCards } from "../Index";
 import { obj } from "../../data/data";
+/**
+ * 
+ * @returns Cards display section
+ */
 
 const BodySection = () => {
   return (

@@ -9,9 +9,15 @@ import styles from "./Card.module.css";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { useTheme } from "@mui/material/styles";
 
-const CategoryCards = (props) => {
-  const theme = useTheme();
+/**
+ * 
+ * @param {Category detils} props 
+ * @returns Cards of different category
+ */
 
+const CategoryCards = (props) => {
+  
+  const theme = useTheme();
   return (
     <Box
       sx={{
