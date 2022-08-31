@@ -1,3 +1,5 @@
+@import url("../../Styles/Color.css"); 
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .landingContainer{
   display: grid;
@@ -10,7 +12,8 @@
   "footer footer footer footer footer footer";
    grid-template-rows: 1fr 1fr 1fr;
    margin: 4.5rem auto 0 auto;
-   background-color: aqua;
+   background-color: var(--white-bg); 
    width: 90vw;
    height: 80vh;
+   font-family: 'Roboto', sans-serif;
 }

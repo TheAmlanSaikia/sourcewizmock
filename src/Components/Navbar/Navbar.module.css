@@ -1,6 +1,8 @@
+@import url(../../Styles/Color.css);
+
 .appBarStyle {
   box-shadow: none;
-  background-color: white;
+  background-color: var(--white-bg);
 }
 
 .logoStyle {
@@ -13,14 +15,12 @@
   vertical-align: middle;
   display: inline-block;
   cursor: pointer;
-
 }
 
-
-.ActivityStyle{
-    display: flex;
-    align-items: center;
-    margin-top: 0.3rem;
-    color: darkgray;
-    font-family: sans-serif;
+.ActivityStyle {
+  display: flex;
+  align-items: center;
+  margin-top: 0.3rem;
+  color: var(--grey-text);
+  font-family: sans-serif;
 }

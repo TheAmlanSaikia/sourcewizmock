@@ -1,0 +1,15 @@
+.cardContainer{
+    height: 86%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.8rem;
+}
+.firstBox{
+    height: 50%;
+}
+
+.titleBox{
+   display: flex;
+   justify-content: space-between;
+}

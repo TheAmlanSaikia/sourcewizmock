@@ -1,35 +1,48 @@
-.headerStyles{
-    grid-area: header;
+@import url(../../Styles/Color.css);
+
+.headerStyles {
+  grid-area: header;
+  display: flex;
+  border-bottom: 1px solid #b1b3b2;
+}
+
+.breadCrumbs {
+  font-size: 16px;
+  font-weight: 500;
+}
+.breadCrumbsText {
+  color: var(--grey-text);
+}
+
+.firstContainer {
+  background-color: var(--white-bg);
+  margin-left: 0px;
+  width: 50%;
+}
+
+.pageCategory {
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.secondContainer {
+  width: 50%;
+  background-color: var(--white-bg);
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: flex-end;
+  height: 98%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 1090px) {
+  .buttonBox {
     display: flex;
-    border-bottom: 1px solid black;
-}
-
-.firstContainer{
-    background-color:  white;
-    margin-left: 0px;
-    width: 50%;
-}
-.pageCategory{
-
-    margin-top: 1rem;
-}
-
-.selectedBtnStyle{
-
-    color: green;
-    border-bottom: 3px solid green;
-    border-radius: 0px;
-}
-
-.secondContainer{
-   width: 50%;
-   background-color:  white;
-} 
-
-.buttonBox{
-    display: flex;
-    justify-content: flex-end;
-    height: 98%;
-    align-items: center;
-
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
 }
