@@ -2,4 +2,4 @@
 
 
 
-Hi. Check the screen at https://sourcewizmock.netlify.app/
+Check the screen at https://sourcewizmock.netlify.app/
