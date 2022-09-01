@@ -3,14 +3,11 @@ import { useTheme } from "@mui/material/styles";
 import { Button } from "@mui/material";
 
 /**
- * 
+ *
  * @returns add more category card
  */
 
-
-
 const AddCategoryCards = () => {
-
   const theme = useTheme();
   return (
     <Box

@@ -1,4 +1,3 @@
-import "./App.css";
 import "./Styles/Color.css";
 import { Navbar } from "./Components/Index";
 import LandingPage from "./Pages/Landing Page/LandingPage";

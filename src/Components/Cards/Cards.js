@@ -10,13 +10,12 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { useTheme } from "@mui/material/styles";
 
 /**
- * 
- * @param {Category detils} props 
+ *
+ * @param {Category detils} props
  * @returns Cards of different category
  */
 
 const CategoryCards = (props) => {
-  
   const theme = useTheme();
   return (
     <Box
@@ -72,16 +71,17 @@ const CategoryCards = (props) => {
         <section>
           <ImageList
             sx={{
-              width: 280,
-              height: 92,
-              margin: "15px 10px 10px 10px",
+              height: 95,
+              margin: "15px 0px 10px 0px",
               display: "flex",
               alignItems: "center",
             }}
             cols={3}
             rows={1}>
             {props.img.map((item) => (
-              <ImageListItem sx={{ borderRadius: "15px" }} key={Math.random()}>
+              <ImageListItem
+                sx={{ borderRadius: "15px", margin: "5px" }}
+                key={Math.random()}>
                 <img src={item} srcSet={item} alt={"New"} loading='lazy' />
               </ImageListItem>
             ))}
